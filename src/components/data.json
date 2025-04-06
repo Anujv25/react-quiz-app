@@ -1,0 +1,48 @@
+[
+  {
+    "id": 1,
+    "question": "What is ABC",
+    "options": [
+      {
+        "id": 1,
+        "optionLabel": "ANS !1"
+      },
+      {
+        "id": 2,
+        "optionLabel": "ANS 2"
+      },
+      {
+        "id": 3,
+        "optionLabel": "ANS 3"
+      },
+      {
+        "id": 4,
+        "optionLabel": "ANS 4"
+      }
+    ],
+    "correctAnswer": [1, 2]
+  },
+  {
+    "id": 2,
+    "question": "What is DEF",
+    "options": [
+      {
+        "id": 1,
+        "optionLabel": "ANS 1"
+      },
+      {
+        "id": 2,
+        "optionLabel": "ANS 2"
+      },
+      {
+        "id": 3,
+        "optionLabel": "ANS 3"
+      },
+      {
+        "id": 4,
+        "optionLabel": "ANS 4"
+      }
+    ],
+    "correctAnswer": [2]
+  }
+]
