@@ -7,16 +7,20 @@ import questions from './data';
 const Question = () => {
   const [questionIndex, setQuestionIndex] = useState(0);
   const [score, setScore] = useState(0);
+  const incrementQuestionIndex = () => {
+    setQuestionIndex(questionIndex + 1);
+  };
   return (
     <>
       <p>Score {score / questions.length}</p>
-      <QuestionTimer />
+      <QuestionTimer nextQuestion={incrementQuestionIndex}  questionIndex={questionIndex}/>
       <QuestionCard
-        questionData={questions[questionIndex]}
+        questionData={questions}
         updateScore={setScore}
         score={score}
         nextQuestion={setQuestionIndex}
         questionIndex={questionIndex}
+        
       />
     </>
   );

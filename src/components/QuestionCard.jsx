@@ -8,7 +8,8 @@ const QuestionCard = ({
   nextQuestion,
 }) => {
   const [selectedOption, setSelected] = useState('');
-  const { id, question, options, correctAnswer } = questionData;
+  
+  const { question, options, correctAnswer } = questionData[questionIndex];
 
   const handleOptionClick = (id) => {
     setSelected(id);
